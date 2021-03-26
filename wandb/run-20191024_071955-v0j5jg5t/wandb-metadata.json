@@ -1,0 +1,22 @@
+{
+    "root": "C:\\Users\\jocom\\PythonProjects\\muse",
+    "program": "<python with no main file>",
+    "codeSaved": true,
+    "startedAt": "2019-10-24T07:19:55.586989",
+    "host": "DESKTOP-OUQDDED",
+    "username": "jocom",
+    "executable": "C:\\Users\\jocom\\Anaconda3\\python.exe",
+    "os": "Windows-10-10.0.17763-SP0",
+    "python": "3.7.4",
+    "cpu_count": 12,
+    "args": [
+        "-f",
+        "C:\\Users\\jocom\\AppData\\Roaming\\jupyter\\runtime\\kernel-8028ef9a-201a-4c25-8bcf-e879aa8d07a8.json"
+    ],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "name": "giddy-dust-15",
+    "project": "eeg-up-down",
+    "heartbeatAt": "2019-10-24T07:20:09.266822"
+}

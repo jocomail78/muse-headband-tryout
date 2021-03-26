@@ -1,0 +1,21 @@
+{
+    "root": "C:\\Users\\jocom\\PythonProjects\\muse",
+    "program": "<python with no main file>",
+    "codeSaved": true,
+    "startedAt": "2019-10-23T13:38:17.126681",
+    "host": "DESKTOP-OUQDDED",
+    "username": "jocom",
+    "executable": "C:\\Users\\jocom\\Anaconda3\\python.exe",
+    "os": "Windows-10-10.0.17763-SP0",
+    "python": "3.7.4",
+    "cpu_count": 12,
+    "args": [
+        "-f",
+        "C:\\Users\\jocom\\AppData\\Roaming\\jupyter\\runtime\\kernel-9fc4267f-2652-44b4-aeea-8d9bfec25f7b.json"
+    ],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "project": "w-b-tutorial",
+    "heartbeatAt": "2019-10-23T13:38:19.117187"
+}

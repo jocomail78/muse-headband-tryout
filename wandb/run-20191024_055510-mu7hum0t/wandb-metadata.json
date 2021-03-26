@@ -1,0 +1,22 @@
+{
+    "root": "C:\\Users\\jocom\\PythonProjects\\muse",
+    "program": "<python with no main file>",
+    "codeSaved": true,
+    "startedAt": "2019-10-24T05:55:14.698723",
+    "host": "DESKTOP-OUQDDED",
+    "username": "jocom",
+    "executable": "C:\\Users\\jocom\\Anaconda3\\python.exe",
+    "os": "Windows-10-10.0.17763-SP0",
+    "python": "3.7.4",
+    "cpu_count": 12,
+    "args": [
+        "-f",
+        "C:\\Users\\jocom\\AppData\\Roaming\\jupyter\\runtime\\kernel-83fc9b32-c5e5-4291-bc15-70448fd74ddf.json"
+    ],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "name": "quiet-glitter-8",
+    "project": "w-b-tutorials",
+    "heartbeatAt": "2019-10-24T05:55:32.158731"
+}

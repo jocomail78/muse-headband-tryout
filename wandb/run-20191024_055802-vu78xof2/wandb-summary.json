@@ -1,0 +1,102 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "flatten_4_input",
+                "id": "flatten_4_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "flatten_4",
+                "id": "flatten_4",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_4",
+                "id": "dense_4",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    10
+                ],
+                "num_parameters": 7850
+            }
+        ],
+        "edges": [
+            [
+                "flatten_4_input",
+                "flatten_4"
+            ],
+            [
+                "flatten_4",
+                "dense_4"
+            ]
+        ]
+    },
+    "loss": 0.09713327685197194,
+    "epoch": 9,
+    "val_accuracy": 0.5277000069618225,
+    "accuracy": 0.5138499736785889,
+    "_runtime": 18.727164030075073,
+    "val_loss": 0.09434817126989364,
+    "examples": {
+        "width": 28,
+        "height": 28,
+        "format": "png",
+        "count": 36,
+        "_type": "images",
+        "captions": [
+            "Nine",
+            "Five",
+            "Two",
+            "Five",
+            "Six",
+            "Seven",
+            "Five",
+            "Five",
+            "Six",
+            "Two",
+            "Nine",
+            "Six",
+            "Three",
+            "Nine",
+            "Three",
+            "Nine",
+            "Nine",
+            "Two",
+            "Nine",
+            "Three",
+            "Two",
+            "Nine",
+            "Six",
+            "Five",
+            "Nine",
+            "Two",
+            "Six",
+            "Six",
+            "Three",
+            "Seven",
+            "Six",
+            "Three",
+            "Six",
+            "Three",
+            "Nine",
+            "Six"
+        ]
+    },
+    "_timestamp": 1571896705.567242,
+    "_step": 9
+}

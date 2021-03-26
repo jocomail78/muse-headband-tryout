@@ -1,0 +1,102 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "flatten_1_input",
+                "id": "flatten_1_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "flatten_1",
+                "id": "flatten_1",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_1",
+                "id": "dense_1",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    10
+                ],
+                "num_parameters": 7850
+            }
+        ],
+        "edges": [
+            [
+                "flatten_1_input",
+                "flatten_1"
+            ],
+            [
+                "flatten_1",
+                "dense_1"
+            ]
+        ]
+    },
+    "accuracy": 0.9305999875068665,
+    "_timestamp": 1571897561.9279158,
+    "val_loss": 0.2664769329726696,
+    "loss": 0.25087878083984055,
+    "epoch": 9,
+    "val_accuracy": 0.9261999726295471,
+    "examples": {
+        "width": 28,
+        "height": 28,
+        "format": "png",
+        "count": 36,
+        "_type": "images",
+        "captions": [
+            "Seven",
+            "Four",
+            "Seven",
+            "Nine",
+            "Six",
+            "Two",
+            "Seven",
+            "Zero",
+            "One",
+            "Seven",
+            "Nine",
+            "Eight",
+            "Seven",
+            "Seven",
+            "Nine",
+            "Eight",
+            "Two",
+            "One",
+            "Two",
+            "Four",
+            "Seven",
+            "Seven",
+            "Seven",
+            "Five",
+            "Nine",
+            "Five",
+            "Two",
+            "Two",
+            "One",
+            "Zero",
+            "Six",
+            "Seven",
+            "Zero",
+            "Zero",
+            "Seven",
+            "Two"
+        ]
+    },
+    "_step": 9,
+    "_runtime": 18.610687017440796
+}

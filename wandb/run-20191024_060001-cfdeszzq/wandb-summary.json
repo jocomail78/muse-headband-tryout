@@ -1,0 +1,102 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "flatten_5_input",
+                "id": "flatten_5_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "flatten_5",
+                "id": "flatten_5",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_5",
+                "id": "dense_5",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    10
+                ],
+                "num_parameters": 7850
+            }
+        ],
+        "edges": [
+            [
+                "flatten_5_input",
+                "flatten_5"
+            ],
+            [
+                "flatten_5",
+                "dense_5"
+            ]
+        ]
+    },
+    "loss": 0.1146857172091802,
+    "epoch": 9,
+    "val_accuracy": 0.4129999876022339,
+    "accuracy": 0.42598333954811096,
+    "_runtime": 17.69462275505066,
+    "val_loss": 0.11725017701387405,
+    "examples": {
+        "width": 28,
+        "height": 28,
+        "format": "png",
+        "count": 36,
+        "_type": "images",
+        "captions": [
+            "Five",
+            "Two",
+            "Four",
+            "Two",
+            "Five",
+            "Three",
+            "Two",
+            "Four",
+            "Three",
+            "Two",
+            "Two",
+            "Two",
+            "Four",
+            "Four",
+            "Two",
+            "Six",
+            "Two",
+            "Six",
+            "Five",
+            "Five",
+            "Four",
+            "Three",
+            "Two",
+            "Two",
+            "Two",
+            "Two",
+            "Three",
+            "Two",
+            "Five",
+            "Six",
+            "Two",
+            "Five",
+            "Five",
+            "Two",
+            "Six",
+            "Three"
+        ]
+    },
+    "_timestamp": 1571896823.1219776,
+    "_step": 9
+}

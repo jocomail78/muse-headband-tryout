@@ -1,0 +1,22 @@
+{
+    "root": "C:\\Users\\jocom\\PythonProjects\\muse",
+    "program": "<python with no main file>",
+    "codeSaved": true,
+    "startedAt": "2019-10-23T15:50:50.699044",
+    "host": "DESKTOP-OUQDDED",
+    "username": "jocom",
+    "executable": "C:\\Users\\jocom\\Anaconda3\\python.exe",
+    "os": "Windows-10-10.0.17763-SP0",
+    "python": "3.7.4",
+    "cpu_count": 12,
+    "args": [
+        "-f",
+        "C:\\Users\\jocom\\AppData\\Roaming\\jupyter\\runtime\\kernel-f3a0114b-9731-4fad-b0b1-2321f783c3dc.json"
+    ],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "name": "serene-gorge-9",
+    "project": "eeg-up-down",
+    "heartbeatAt": "2019-10-23T15:51:40.633033"
+}

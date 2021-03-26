@@ -1,0 +1,102 @@
+{
+    "graph": {
+        "_type": "graph",
+        "edges": [
+            [
+                "flatten_1_input",
+                "flatten_1"
+            ],
+            [
+                "flatten_1",
+                "dense_1"
+            ]
+        ],
+        "nodes": [
+            {
+                "id": "flatten_1_input",
+                "name": "flatten_1_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "id": "flatten_1",
+                "name": "flatten_1",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "id": "dense_1",
+                "name": "dense_1",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    1
+                ],
+                "num_parameters": 785
+            }
+        ],
+        "format": "keras"
+    },
+    "accuracy": 0.3100833296775818,
+    "epoch": 9,
+    "val_loss": 4.189511404800415,
+    "val_accuracy": 0.16539999842643738,
+    "_step": 9,
+    "_runtime": 15.61294651031494,
+    "examples": {
+        "_type": "images",
+        "count": 36,
+        "width": 28,
+        "format": "png",
+        "height": 28,
+        "captions": [
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five",
+            "Not Five"
+        ]
+    },
+    "_timestamp": 1571838771.0823145,
+    "loss": 5.534834411533674
+}
